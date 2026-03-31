@@ -1,6 +1,6 @@
 name: Installing Python
 
-on: [push]
+on: [push,workflow_dispatch]
 strategy:
   matrix:
     py-version: [3.10, 3.11, 3.12]
